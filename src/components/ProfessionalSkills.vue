@@ -42,4 +42,8 @@ hr {
   flex-direction: column;
   gap: 10px;
 }
+
+li {
+  font-size: 16px;
+}
 </style>

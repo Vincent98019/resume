@@ -5,6 +5,16 @@ import WorkExperience from "@/components/WorkExperience.vue";
 import ProjectExperience from "@/components/ProjectExperience.vue";
 import EducationalBackground from "@/components/EducationalBackground.vue";
 import PersonalSummary from "@/components/PersonalSummary.vue";
+import {onMounted} from "vue";
+
+async function getData() {
+  await fetch('https://healtrack.cn:8500/public/resume/count');
+}
+
+onMounted(async () => {
+  await getData();
+});
+
 </script>
 
 <template>
@@ -29,9 +39,11 @@ import PersonalSummary from "@/components/PersonalSummary.vue";
 .size-div-1 {
   height: 30px;
 }
+
 .size-div-2 {
   height: 10px;
 }
+
 .size-div-3 {
   height: 100px;
 }

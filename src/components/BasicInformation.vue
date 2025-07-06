@@ -28,10 +28,12 @@
   margin-top: 10px;
   letter-spacing: 1px;
   text-align: center;
+  font-size: 16px;
 }
 
 .identity {
   letter-spacing: 1px;
   text-align: center;
+  font-size: 16px;
 }
 </style>

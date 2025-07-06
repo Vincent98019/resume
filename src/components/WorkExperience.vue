@@ -45,6 +45,7 @@ hr {
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 8px;
+  font-size: 16px;
 
   .name {
     font-weight: bold;
@@ -55,5 +56,7 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 10px;
+
+  font-size: 16px;
 }
 </style>

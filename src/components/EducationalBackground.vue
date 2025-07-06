@@ -14,11 +14,11 @@
     </div>
     <div class="position">计算机科学与技术 本科</div>
 
-<!--    <div class="school-info">-->
-<!--      <div class="name">陕西师范大学</div>-->
-<!--      <div class="date">2022年3月 - 2024年6月</div>-->
-<!--    </div>-->
-<!--    <div class="position">计算机科学与技术 本科</div>-->
+    <!--    <div class="school-info">-->
+    <!--      <div class="name">陕西师范大学</div>-->
+    <!--      <div class="date">2022年3月 - 2024年6月</div>-->
+    <!--    </div>-->
+    <!--    <div class="position">计算机科学与技术 本科</div>-->
   </div>
 </template>
 
@@ -44,15 +44,15 @@ hr {
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 8px;
+  font-size: 16px;
 
   .name {
     font-weight: bold;
   }
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+.position {
+  font-size: 16px;
 }
+
 </style>
